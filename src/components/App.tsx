@@ -88,7 +88,7 @@ export const App = () => {
             {
                 (!gameOver) 
                 && 
-                (<p className = "score">Score:</p>) 
+                (<p className = "score">Score: {score}</p>) 
             }
 
             {
